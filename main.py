@@ -55,7 +55,7 @@ def main():
     # Display final stats
     display_final_stats(stats)
 
-    print("\nThanks for playing Hangman, {}!".format(player_name))
+    print("\nThanks for playing Hangman_game, {}!".format(player_name))
 
 
 if __name__ == "__main__":
