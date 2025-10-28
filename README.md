@@ -442,20 +442,6 @@ Minimum Score = 0
 - **Penalty**: Each wrong guess deducts 5 points
 - **Losing**: If you lose the game, score = 0 (regardless of progress)
 
-### Scoring Examples
-
-| Word | Length | Wrong Guesses | Calculation | Final Score |
-|------|--------|---------------|-------------|-------------|
-| `cat` | 3 | 0 | (3 × 10) - (0 × 5) | **30** |
-| `cat` | 3 | 2 | (3 × 10) - (2 × 5) | **20** |
-| `cat` | 3 | 6 | Lost the game | **0** |
-| `python` | 6 | 0 | (6 × 10) - (0 × 5) | **60** |
-| `python` | 6 | 1 | (6 × 10) - (1 × 5) | **55** |
-| `python` | 6 | 3 | (6 × 10) - (3 × 5) | **45** |
-| `algorithm` | 9 | 2 | (9 × 10) - (2 × 5) | **80** |
-| `algorithm` | 9 | 4 | (9 × 10) - (4 × 5) | **70** |
-| `programming` | 11 | 1 | (11 × 10) - (1 × 5) | **105** |
-
 ### Strategy for High Scores
 
 1. **Choose longer words**: Select categories with longer words for higher base scores
