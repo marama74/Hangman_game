@@ -1,0 +1,30 @@
+Game 1 Log
+============================================================
+Category: Animal
+Word: panther
+Word Length: 7
+
+Guesses (in order):
+1. a -> Correct
+2. b -> Wrong
+3. g -> Wrong
+4. u -> Wrong
+5. i -> Wrong
+6. o -> Wrong
+7. h -> Correct
+8. m -> Wrong
+
+Wrong Guesses List: b, g, u, i, o, m
+Wrong Guesses Count: 6
+Remaining Attempts: 0
+Result: Loss
+Points Earned: 0
+Total Score: 0
+
+Games Played: 1
+Wins: 0
+Losses: 1
+Win Rate: 0.00%
+
+Date & Time: 2025-10-28 00:27:36
+============================================================
