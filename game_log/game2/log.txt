@@ -1,0 +1,30 @@
+Game 2 Log
+============================================================
+Category: Programming
+Word: bigquery
+Word Length: 8
+
+Guesses (in order):
+1. a -> Wrong
+2. b -> Correct
+3. c -> Wrong
+4. d -> Wrong
+5. g -> Correct
+6. f -> Wrong
+7. m -> Wrong
+8. n -> Wrong
+
+Wrong Guesses List: a, c, d, f, m, n
+Wrong Guesses Count: 6
+Remaining Attempts: 0
+Result: Loss
+Points Earned: 0
+Total Score: 0
+
+Games Played: 1
+Wins: 0
+Losses: 1
+Win Rate: 0.00%
+
+Date & Time: 2025-10-28 10:13:39
+============================================================
