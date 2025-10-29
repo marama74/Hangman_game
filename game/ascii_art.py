@@ -27,7 +27,7 @@ def get_hangman_art(wrong_count):
         6: Right leg (game over)
     """
     stages = [
-        # Stage 0: Empty gallows - No wrong guesses yet
+        # NO wrong guess
         """
         +---+
         |   |
@@ -37,27 +37,27 @@ def get_hangman_art(wrong_count):
             |
       =========
         """,
-        # Stage 1: Head appears - First wrong guess
-        """
-        +---+
-        |   |
-        O   |
-            |
-            |
-            |
-      =========
-        """,
-        # Stage 2: Body appears - Second wrong guess
+        # wrong_1
         """
         +---+
         |   |
         O   |
+            |
+            |
+            |
+      =========
+        """,
+        # wrong_2
+        """
+        +---+
+        |   |
+        O   |
         |   |
             |
             |
       =========
         """,
-        # Stage 3: Left arm appears - Third wrong guess
+        # wrong_3
         """
         +---+
         |   |
@@ -67,7 +67,7 @@ def get_hangman_art(wrong_count):
             |
       =========
         """,
-        # Stage 4: Right arm appears - Fourth wrong guess
+        # wrong_4 
         """
         +---+
         |   |
@@ -77,7 +77,7 @@ def get_hangman_art(wrong_count):
             |
       =========
         """,
-        # Stage 5: Left leg appears - Fifth wrong guess
+        # wrong_5
         """
         +---+
         |   |
@@ -87,7 +87,7 @@ def get_hangman_art(wrong_count):
             |
       =========
         """,
-        # Stage 6: Right leg appears - Game over (sixth wrong guess)
+        # wrong_6
         """
         +---+
         |   |
@@ -99,7 +99,7 @@ def get_hangman_art(wrong_count):
         """
     ]
     
-    # Ensure wrong_count is within valid range (0-6)
+    
     if wrong_count < 0:
         wrong_count = 0
     elif wrong_count > 6:

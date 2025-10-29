@@ -9,8 +9,6 @@ from .logger import save_game_log
 from .wordlist import get_random_word
 from .ascii_art import get_hangman_art
 from ui.display import display_game_state, display_result
-
-
 def get_next_game_number():
     """
     Get the next game number for logging.

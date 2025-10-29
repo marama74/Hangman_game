@@ -1,0 +1,22 @@
+Game 4 Log
+============================================================
+Category: Countries
+Word: ghana
+Word Length: 5
+
+Guesses (in order):
+
+Wrong Guesses List: None
+Wrong Guesses Count: 0
+Remaining Attempts: 6
+Result: Loss
+Points Earned: 0
+Total Score: 0
+
+Games Played: 1
+Wins: 0
+Losses: 1
+Win Rate: 0.00%
+
+Date & Time: 2025-10-30 00:33:48
+============================================================

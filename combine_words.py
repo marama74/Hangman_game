@@ -1,16 +1,15 @@
-# combine_words.py
 from pathlib import Path
 
-# Paths
+
 base_dir = Path("words")
 categories_dir = base_dir / "categories"
 output_file = base_dir / "words.txt"
 
-# Collect all words
+
 all_words = []
 category_counts = {}
 
-# Loop through each .txt file in categories
+# create loop to combine the categories
 for txt_file in categories_dir.glob("*.txt"):
     with open(txt_file, "r", encoding="utf-8") as f:
         lines = [line.strip().lower() for line in f if line.strip()]
@@ -20,7 +19,7 @@ for txt_file in categories_dir.glob("*.txt"):
 # Remove duplicates
 unique_words = sorted(set(all_words))
 
-# Write combined list to words.txt
+# combine list
 with open(output_file, "w", encoding="utf-8") as f:
     for word in unique_words:
         f.write(word + "\n")

@@ -1,0 +1,29 @@
+Game 3 Log
+============================================================
+Category: Countries
+Word: ecuador
+Word Length: 7
+
+Guesses (in order):
+1. a -> Correct
+2. h -> Wrong
+3. b -> Wrong
+4. m -> Wrong
+5. n -> Wrong
+6. k -> Wrong
+7. f -> Wrong
+
+Wrong Guesses List: h, b, m, n, k, f
+Wrong Guesses Count: 6
+Remaining Attempts: 0
+Result: Loss
+Points Earned: 0
+Total Score: 0
+
+Games Played: 1
+Wins: 0
+Losses: 1
+Win Rate: 0.00%
+
+Date & Time: 2025-10-29 11:14:51
+============================================================

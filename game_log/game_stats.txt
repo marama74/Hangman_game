@@ -1,0 +1,4 @@
+games_played: 1
+wins: 0
+losses: 1
+total_score: 0
